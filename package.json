@@ -44,7 +44,6 @@
     "@umijs/test": "^4",
     "aes-js": "^3.1.2",
     "ajv": "^8.6.3",
-    "arlocal": "^1.1.66",
     "babel-jest": "^29.6.2",
     "bip39": "^3.0.4",
     "chai": "^4.3.4",
@@ -61,10 +60,8 @@
     "mwts": "^1.0.5",
     "node-fetch": "^2.6.5",
     "nyc": "^15.1.0",
-    "secp256k1": "4.0.2",
     "sinon": "^11.1.2",
     "swagger-ui-dist": "^3.48.0",
-    "tiny-secp256k1": "1.1.6",
     "tronweb": "^2.10.1",
     "ts-jest": "29.2.5",
     "ts-node": "^10",
@@ -104,9 +101,8 @@
     "js-sha3": "0.8.0",
     "pact-lang-api": "4.3.3",
     "protobufjs": "6.11.2",
-    "secp256k1": "4.0.2",
-    "sqlite3": "5.1.6",
-    "tiny-secp256k1": "1.1.6",
+    "secp256k1": "^5.0.0",
+    "tiny-secp256k1": "^2.2.3",
     "ton": "^13.9.0",
     "ton-core": "^0.53.0",
     "ton-crypto": "^3.2.0",
@@ -114,7 +110,9 @@
     "tonweb-lite": "0.0.4",
     "ts-jest": "^29.2.5",
     "tweetnacl": "1.0.3",
-    "windows-build-tools": "^5.2.2"
+    "windows-build-tools": "^5.2.2",
+    "cbor": "8.0.0",
+    "@emurgo/cardano-serialization-lib-nodejs": "11.4.0"
   },
   "engines": {
     "node": ">=18.0.0 <=22.6.0"
